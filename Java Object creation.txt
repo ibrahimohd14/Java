@@ -1,0 +1,15 @@
+public class SimpleMathOperations {
+    // Instance variables
+    int number1 = 20;
+    int number2 = 10;
+    
+    // Main method - entry point of the program
+    public static void main(String[] args) {
+        // Create an object of the class
+        SimpleMathOperations math = new SimpleMathOperations();
+        
+        // Call methods and print results
+        System.out.println("Number 1: " + math.number1);
+        System.out.println("Number 2: " + math.number2);
+        
+    }}
