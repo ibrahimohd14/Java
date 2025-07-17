@@ -1,0 +1,31 @@
+public class easydemo {
+
+    // Instance variables
+    int number1 = 20;
+    int number2 = 10;
+    
+    // Main method - entry point of the program
+    public static void main(String[] args) {
+        easydemo xyz = new easydemo(); // OBJECT CREATION   < " CLASS_NAME OBJECT_REF = NEW CLASS_NAME" >
+        
+        // Call methods to perform operations
+        xyz.addNumbers();
+        xyz.subtractNumbers();
+        xyz.multiplyNumbers();
+    }
+    
+    // Method to add two numbers
+    public void addNumbers() {
+        System.out.println("Addition: " + (number1 + number2));
+    }
+    
+    // Method to subtract two numbers
+    public void subtractNumbers() {
+        System.out.println("Subtraction: " + (number1 - number2));
+    }
+    
+    // Method to multiply two numbers
+    public void multiplyNumbers() {
+        System.out.println("Multiplication: " + (number1 * number2));
+    }
+}
